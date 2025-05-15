@@ -99,19 +99,19 @@
     --background: #cdd2ff;
     --foreground: #00071f;
 
-    --primary: oklch(0.514 0.222 16.935);
+    --primary: #04185a;
     --primary-foreground: #fff;
-    --primary-hover: oklch(0.514 0.222 16.935);
+    --primary-hover: #052079;
 
-    --secondary: #04185a;
+    --secondary: oklch(0.514 0.222 16.935);
     --secondary-foreground: #fff;
-    --secondary-hover: #052079;
+    --secondary-hover: oklch(0.514 0.222 16.935);
 
     --text-secondary: #d1d5db;
 
-    --muted: #00071f;
+    --muted: #7f2a05;
     --muted-foreground: hsl(245, 58%, 85%);
-    --muted-hover: #010c37;
+    --muted-hover: #963207;
 
     --card: #d8f1ff;
     --card-foreground: #2e2b45;
