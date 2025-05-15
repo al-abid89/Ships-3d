@@ -1,0 +1,29 @@
+<main class="py-12 min-h-[80vh]">
+    <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="page-heading mb-8">{{title}}</h1>
+
+            <div class="info-card">
+                {{#each details}}
+
+                {{#if heading}}
+                <h2 class="text-2xl font-bold mb-4 text-foreground">{{heading}}</h2>
+                {{/if}}
+
+                {{#each description}}
+                <p class="mb-4">{{this}}</p>
+                {{/each}}
+
+                {{#if listItems}}
+                <ul class="list-disc pl-8">
+                    {{#each listItems}}
+                    <li>{{this}}</li>
+                    {{/each}}
+                </ul>
+                {{/if}}
+
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</main>

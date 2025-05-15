@@ -1,0 +1,75 @@
+Create a logo for the site
+go to https://www.favicon-generator.org/ and generate favicons and other icons
+Change the Site Name and URL in manifest.json
+
+get iso date using this url:
+https://greenwichmeantime.com/articles/clocks/iso/
+
+Logo should be 1024 by 1024 px square
+Logo Icon should be 150 by 150 px
+
+Google fonts url
+https://fonts.google.com/
+
+        "toc": [
+          {
+            "title": "About",
+            "url": "#about"
+          },
+
+          {
+            "title": "Features",
+            "url": "#features"
+          },
+          {
+            "title": "How to Play",
+            "url": "#howto"
+          },
+          {
+            "title": "FAQs",
+            "url": "#faqs"
+          },
+          {
+            "title": "Conclusion",
+            "url": "#conclusion"
+          }
+        ],
+
+
+//Blog json object in common.json
+{
+      "url": "/blog//",
+      "title": "",
+      "imageUrl": "/assets/images/blog/.webp",
+      "metaDescription": ""
+}
+
+// Blog Individual Page in pages.json
+
+"/blog//index.html": {
+    "title": "",
+    "metaDescription": "",
+    "imageUrl": "/assets/images/blog/.webp",
+    "content": {
+      "publishDate": "2025-03-10",
+      "author": "",
+      "data": [
+        {
+          "heading": "",
+          "description": [
+            ""
+          ],
+          "listItems": []
+        }
+      ]
+    }
+}
+
+//related games
+
+{
+    "title": "game name",
+    "imageUrl": "#",
+    "gameUrl": "#",
+    "target": "_blank"
+},

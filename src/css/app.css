@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none !important;
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+@layer components {
+    body {
+        @apply text-base font-serif bg-background text-foreground;
+    }
+
+    .container {
+        @apply max-w-5xl mx-auto;
+    }
+
+    .logo-image {
+        @apply size-12 rounded-2xl transition-transform duration-300 group-hover:scale-105;
+    }
+
+    .nav-container {
+        @apply flex items-center md:absolute md:left-1/2 md:transform md:-translate-x-1/2 gap-6;
+    }
+
+    .nav-link {
+        @apply text-foreground hover:text-primary-hover transition-all duration-300;
+    }
+
+    .mobile-nav-link {
+        @apply hover:text-secondary-hover text-center px-4 py-2 rounded-lg transition-all duration-300;
+    }
+
+    .page-heading {
+        @apply text-4xl md:text-5xl font-bold text-balance;
+
+        background: linear-gradient(
+                90deg,
+                var(--primary) 0%,
+                var(--secondary) 100%
+        );
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    .section-heading {
+        @apply text-xl md:text-3xl font-bold text-center text-foreground;
+    }
+
+    .card-section-heading {
+        @apply text-xl md:text-3xl font-bold text-center text-card-foreground;
+    }
+
+    .sub-heading {
+        @apply text-lg md:text-xl font-semibold;
+    }
+
+    .game-player {
+        @apply w-full aspect-video bg-muted border border-border shadow-lg transition-all duration-300 group-hover:shadow-xl;
+    }
+
+    .info-card {
+        @apply bg-card border-2 border-border border-dashed p-6 rounded-2xl text-card-foreground;
+    }
+
+    .info-index {
+        @apply -top-4 -left-4 absolute bg-card size-8 text-base rounded-full flex items-center justify-center border-2 border-r-0 border-b-0 border-border border-dashed;
+    }
+
+    .social-share-button {
+        @apply flex items-center px-4 py-2 text-sm font-medium text-secondary-foreground bg-secondary rounded-md hover:bg-secondary-hover focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-offset-2 transition-colors;
+    }
+
+    .button-primary {
+        @apply px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary-hover transition-all duration-300 shadow-md hover:shadow-lg font-medium;
+    }
+
+    .button-secondary {
+        @apply px-4 py-2 bg-secondary text-secondary-foreground rounded-lg hover:bg-secondary-hover transition-all duration-300 shadow-md hover:shadow-lg;
+    }
+
+    .button-muted {
+        @apply px-4 py-2 bg-muted text-muted-foreground rounded-lg hover:bg-muted-hover transition-colors;
+    }
+
+    #back-to-top {
+        @apply hidden p-2 fixed z-20 bottom-1 right-1 rounded-md border border-primary bg-primary text-background;
+    }
+}
+
+:root {
+    --background: #d5e9fc;
+    --foreground: #2e2b45;
+
+    --primary: oklch(0.514 0.222 16.935);
+    --primary-foreground: #fff;
+    --primary-hover: oklch(0.514 0.222 16.935);
+
+    --secondary: oklch(0.892 0.058 10.001);
+    --secondary-foreground: oklch(0.41 0.159 10.272);
+    --secondary-hover: oklch(0.892 0.058 10.001);
+
+    --text-secondary: #d1d5db;
+
+    --muted: #00071f;
+    --muted-foreground: hsl(245, 58%, 85%);
+    --muted-hover: #010c37;
+
+    --card: oklch(0.954 0.038 75.164);
+    --card-foreground: #2e2b45;
+    --card-heading: #2e2b45;
+
+    --border: #2e2b45;
+
+    --footer-background: #2e2b45;
+    --footer-foreground: #fff;
+    --footer-link: #fff;
+
+    --white: #222222;
+}

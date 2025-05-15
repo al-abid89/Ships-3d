@@ -1,0 +1,92 @@
+<header class=" bg-background border border-none container mx-auto"
+        x-data="{ isMenuOpen: false }"
+        @keydown.escape="isMenuOpen = false"
+>
+    <div class=" px-4">
+        <div class="flex items-center justify-between py-1.5">
+            <a href="{{#if isMultiLingual}}{{currentLanguage.languagePath}}{{/if}}/"
+               aria-label="{{_goToHomePage}}"
+            >
+                <img src="{{logoIconUrl}}"
+                     alt="{{siteName}}"
+                     class="logo-image"
+                >
+            </a>
+            <div class="nav-container">
+                <nav class="hidden md:flex gap-6">
+                    {{#each navigation}}
+                    <a href="{{this.url}}"
+                       class="nav-link">
+                        {{this.title}}
+                    </a>
+                    {{/each}}
+                </nav>
+                {{#if isMultiLingual}}
+                {{#if languages}}
+                <div>
+                    <label class="sr-only" for="language_switch">{{_langLabel}}</label>
+                    <select onchange="if(this.value) window.location.href=this.value;"
+                            id="language_switch"
+                            class="px-2 py-1 rounded-lg border border-border bg-card"
+                    >
+                        {{#each languages}}
+                        <option value="{{../commonUrlPath}}{{this.languagePath}}"
+                                {{#if (eq this.languageCode ..
+                        /urlLanguageCode)}}selected{{/if}}
+                        >
+                        {{{this.languageTitle}}}
+                        </option>
+                        {{/each}}
+                    </select>
+                </div>
+                {{/if}}
+                {{/if}}
+                <button @click="isMenuOpen = !isMenuOpen"
+                        class="md:hidden rounded-lg"
+                        :aria-expanded="isMenuOpen"
+                        :aria-label="isMenuOpen ? '{{_closeMenu}}' : '{{_openMenu}}'"
+                >
+                    <svg x-show="!isMenuOpen"
+                         xmlns="http://www.w3.org/2000/svg"
+                         class="size-10"
+                         fill="none"
+                         viewBox="0 0 24 24"
+                         stroke="currentColor"
+                         x-cloak
+                    >
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                    <svg x-show="isMenuOpen"
+                         xmlns="http://www.w3.org/2000/svg"
+                         class="size-10"
+                         fill="none"
+                         viewBox="0 0 24 24"
+                         stroke="currentColor"
+                         x-cloak
+                    >
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div x-show="isMenuOpen"
+             x-cloak
+             class="md:hidden pb-4"
+             @click.away="isMenuOpen = false"
+        >
+            <nav class="flex flex-col space-y-3">
+                {{#each navigation}}
+                <a href="{{this.url}}"
+                   class="mobile-nav-link"
+                   @click="isMenuOpen = false"
+                >
+                    {{this.title}}
+                </a>
+                {{/each}}
+            </nav>
+        </div>
+    </div>
+</header>

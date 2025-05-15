@@ -1,0 +1,52 @@
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "{{siteName}}",
+        "url": "{{siteUrl}}",
+        "abstract": "{{abstract}}",
+        "copyrightYear": "{{copyrightYear}}",
+        "keywords": "{{keywords}}"
+    }
+</script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": ["VideoGame", "WebApplication"],
+        "name": "{{siteName}}",
+        "description": "{{abstract}}",
+        "operatingSystem": "Web Browser",
+        "applicationCategory": "GameApplication",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": {{ratingValue}},
+            "ratingCount": {{ratingsCountNumeric}}
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": 0,
+            "priceCurrency": "USD"
+        }
+    }
+</script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "{{title}}",
+        "url": "{{siteUrl}}",
+        "description": "{{metaDescription}}",
+        "image": {
+            "@type": "ImageObject",
+            "url": "{{siteUrl}}{{logoUrl}}",
+            "height": 1024,
+            "width": 1024
+        },
+        "datePublished": "{{publishedDate}}",
+        "dateModified": "{{lastModifiedDate}}",
+        "publisher": {
+            "@type": "Person",
+            "name": "{{websitePublisher}}"
+        }
+    }
+</script>

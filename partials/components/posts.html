@@ -1,0 +1,26 @@
+<div class="grid grid-cols-1 gap-8">
+    {{#if blogPosts}}
+    {{#each blogPosts}}
+    {{#notCurrentUrl url}}
+    <div class="shadow-md overflow-hidden flex flex-col sm:flex-row items-center md:items-start p-6 gap-6 rounded-2xl bg-primary text-primary-foreground">
+        <img src="{{imageUrl}}"
+             alt="{{this.title}}"
+             class="w-full sm:max-w-64 object-cover rounded-2xl">
+        <div class="text-center sm:text-left space-y-4">
+            <h2 class="text-xl font-bold line-clamp-2">{{this.title}}</h2>
+            <p class="line-clamp-2">{{this.metaDescription}}</p>
+            <a href="{{this.url}}"
+               class="inline-block button-muted"
+            >
+                {{../_readNow}}
+            </a>
+        </div>
+    </div>
+    {{/notCurrentUrl}}
+    {{/each}}
+    {{else}}
+    <div class="text-center py-12">
+        <p class="text-foreground text-center">{{_noPosts}}</p>
+    </div>
+    {{/if}}
+</div>

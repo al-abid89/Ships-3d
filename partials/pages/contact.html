@@ -1,0 +1,23 @@
+<main class="py-12 min-h-[80vh]">
+    <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="page-heading mb-8">{{title}}</h1>
+
+            {{#each descriptionBefore}}
+            <p class="mb-6">{{this}}</p>
+            {{/each}}
+
+            <div class="mt-12">
+                <div class="info-card">
+                    <p>
+                        <span class="font-semibold">{{_emailKey}}</span> {{contactEmail}}
+                    </p>
+                </div>
+            </div>
+
+            {{#each descriptionAfter}}
+            <p class="mt-6">{{this}}</p>
+            {{/each}}
+        </div>
+    </div>
+</main>

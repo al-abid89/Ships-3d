@@ -1,0 +1,472 @@
+{
+  "en": {
+    "/index.html": {
+      "title": "Ships 3D Game Online",
+      "metaDescription": "Now Play Multiplayer Ships 3D Online for Free. Command Your Ship, Fire the Cannons, and Conquer the Seas.",
+      "imageUrl": "/ships_3d.webp",
+      "content": {
+        "hero": {
+          "headingOne": "Free Play Ships 3D Online Game [Multiplayer Browser Version]",
+          "introParagraph": "Are you a fan of military battles? Here comes the one that takes you to the high seas. It is none other than Ships 3D. The real-time sea battles where you take on real players from the other side. Big explosions, cannon fire, and player versus player chaos. A browser game where you can enjoy a fast and 100% free to play game. Time to set sail, steer your ship, and go head-to-head with players across the world in action-packed naval warfare.",
+          "descriptionBlocks": [
+            "Hit the ‘Play’ button now and put your strategy to work!"
+          ]
+        },
+        "controls": {
+          "mobile": [
+            {
+              "key": "Virtual Joystick",
+              "function": "Steer the ship in any direction"
+            },
+            {
+              "key": "Fire Button",
+              "function": "Tap to shoot cannons"
+            },
+            {
+              "key": "Speed Button",
+              "function": "Tap to increase movement speed"
+            },
+            {
+              "key": "Settings Icon",
+              "function": "Access game menu or pause"
+            }
+          ],
+          "desktop": [
+            {
+              "key": "W / Up Arrow",
+              "function": "Move forward"
+            },
+            {
+              "key": "S / Down Arrow",
+              "function": "Move backward"
+            },
+            {
+              "key": "A / Left Arrow",
+              "function": "Turn left"
+            },
+            {
+              "key": "D / Right Arrow",
+              "function": "Turn right"
+            },
+            {
+              "key": "Mouse Click (Left)",
+              "function": "Fire cannons"
+            },
+            {
+              "key": "Mouse Movement",
+              "function": "Adjust camera view"
+            },
+            {
+              "key": "Shift",
+              "function": "Boost speed (if available)"
+            },
+            {
+              "key": "Esc",
+              "function": "Pause or open menu"
+            }
+          ]
+        },
+        "toc": [
+          {
+            "title": "About",
+            "url": "#about"
+          },
+
+          {
+            "title": "Features",
+            "url": "#features"
+          },
+          {
+            "title": "How to Play",
+            "url": "#howto"
+          },
+          {
+            "title": "FAQs",
+            "url": "#faqs"
+          },
+          {
+            "title": "Conclusion",
+            "url": "#conclusion"
+          }
+        ],
+        "gameInfo": {
+          "title": "Game Information",
+          "blocks": [
+            {
+              "icon": "info_icons/category",
+              "label": "Category",
+              "value": "Multiplayer Naval Battle"
+            },
+            {
+              "icon": "info_icons/publisher",
+              "label": "Developer",
+              "value": "ASDF Games"
+            },
+            {
+              "icon": "info_icons/technology",
+              "label": "Technology",
+              "value": "HTML5"
+            },
+            {
+              "icon": "info_icons/platform",
+              "label": "Platform",
+              "value": "Web Browser"
+            },
+            {
+              "icon": "info_icons/devices",
+              "label": "Supported Devices",
+              "value": "Laptop, PC, Mobile, Tablet"
+            },
+            {
+              "icon": "info_icons/calendar",
+              "label": "Release Date",
+              "value": "Wednesday, March 17, 2021."
+            }
+          ]
+        },
+        "about": {
+          "title": "What is Ships 3D Game?",
+          "details": [
+            {
+              "heading": "",
+              "description": [
+                "Ships 3D is a multiplayer ship battle game for browser apps. Built on Unity WebGL, the game puts the player behind the steering of a 3D warship. As a player, you have to navigate a realistic ocean. Line up your shots. Fire broadside cannons in high speed. All in PvP combat format.",
+                "Each match is a test of skill and timing. You will be a part of around 20 players in general. But you can also dive into larger servers with 60-90 players in special game modes.  A fully 3D naval environment where you get path upgrades, speed improvements, armor upgrades, and more. There is also a helper bot to assist with navigation or firing. "
+              ],
+              "listItems": []
+            }
+          ]
+        },
+        "features": {
+          "title": "Game Features",
+          "descriptionBefore": [
+            "Here are the main features of Ships 3D:"
+          ],
+          "items": [
+            {
+              "title": "Real Time Multiplayer Battles",
+              "description": "Here you are going to face off against real players from around the world. Each session will drop you into a large-scale ship war situation. Here, the live opponents are coming after you. Team up or go solo. It is up to you. The ultimate goal is to come out of the sea victorious."
+            },
+             {
+              "title": "Custom Ship Upgrades",
+              "description": "The game becomes manageable if you get the chance to upgrade your tools and goods. This is rather simple. You can earn gold by damaging or sinking enemy ships. Spend it on upgrades like faster speed, stronger hulls, or more devastating cannons. The stronger your options, the better your chances of winning."
+            },
+             {
+              "title": "Get Helper Bot Support",
+              "description": "If you are new to naval games, then you are in luck. The Helper Bot will be here at your disposal. It can take the wheel or aim your cannons. One of the best options to deal with your enemies if you feel overwhelmed. A great option for beginners and solo players alike."
+            },
+             {
+              "title": "Crew Mode for Friends",
+              "description": "The real fun while playing multiplayer online games is by joining hands with friends. You can now invite your friends using a crew code. This will allow you to share a ship and assign different roles to them. These could be steering, shooting, spotting, etc. Teamwork makes the dream float."
+            },
+            {
+              "title": "Play the Best Naval Ship Battle Game",
+              "description": "Ships 3D runs straight from your browser app. There is no download or installation requirement. It is totally free and gives a smooth performance in any kind of browser. The gameplay is easy to learn. It will give you a high replay value with online PvP. Whether you are looking to spend a few minutes or want to enjoy a perfect gaming session that is prolonged, you have come to the right place."
+            }
+          ]
+        },
+        "extra": [
+            {
+            "title": "Gameplay and Controls",
+            "details": [
+              {
+                "heading": "",
+                "description": [
+                  "The game Ships 3D is an intense action game. Here, every second counts. You will spawn in open waters. Just take control of a ship. Engage in intense battles. You can outsmart the enemy with precision aiming and smart movements. These will keep you afloat. You can opt for the first-person or third-person view to enjoy the game.",
+                  "Here is how you can control everything:"
+                ],
+                "listItems": [
+                  "WASD: To steer the ship.",
+                  "Mouse: Adjust your camera and aim.",
+                  "Left Click: Fire your cannons.",
+                  "Tab: Switch views and manage ship features.",
+                  "F: Interact with ship stations."
+                ]
+              }
+            ]
+          }
+        ],
+        "howTo": {
+          "title": "How to Play Ships 3D Free Online?",
+          "descriptionBefore": [
+            "Starting the Ships 3D free game takes only a few steps. Here is every step detailed:"
+          ],
+          "listItems": [
+            "Scroll up to the top of this page.",
+            "Click the Play button.",
+            "Wait for a few seconds.",
+            "After the game load is complete, pick a server and your ship.",
+            "Join the battle.",
+            "Steer, shoot, and upgrade.",
+            "Repeat the session."
+          ],
+          "descriptionAfter": []
+        },
+        "conclusion": {
+          "title": "Final Words",
+          "description": [
+            "Ships 3D is an easy and fun game for anyone who likes ship battles. You can play it on a computer or mobile phone without downloading anything. The controls are simple, and the game runs smoothly. Whether you play alone or with others, Ships 3D gives you a fun way to enjoy battles on the sea."
+          ]
+        }
+      }
+    },
+    "/blog/index.html": {
+      "title": "Blog",
+      "metaDescription": "Stay tuned for the latest updates, news, tips, and tricks...",
+      "imageUrl": "/ships_3d.webp"
+    },
+    "/contact/index.html": {
+      "title": "Contact Us",
+      "metaDescription": "We would love to hear from you. Reach us for support, updates, and help.",
+      "imageUrl": "/ships_3d.webp",
+      "contactEmail": "contact@",
+      "descriptionBefore": [
+        "Feel free to reach send a message! Whether you have questions, feedback, or need support, our team is here to help."
+      ],
+      "descriptionAfter": [
+        "Facing an issue? reach out to our support team directly by sending an email to the email address above."
+      ]
+    },
+    "/about/index.html": {
+      "title": "About",
+      "metaDescription": "Play a free game on any digital device to relax your mind and have unlimited fun.",
+      "imageUrl": "/ships_3d.webp",
+      "details": [
+        "Ships 3D offers a fun and accessible online gaming experience for players who enjoy naval battles and multiplayer action. With smooth performance on both desktop and mobile, simple controls, and engaging gameplay, it’s a great choice for casual and competitive players alike. Whether you're steering with a keyboard or tapping on a screen, Ships 3D delivers fast-paced fun on the open seas."
+      ]
+    },
+    "/privacy-policy/index.html": {
+      "title": "Privacy Policy",
+      "metaDescription": "Your Privacy is important for us. Learn about how we manage or collect data.",
+      "imageUrl": "/ships_3d.webp",
+      "details": [
+        {
+          "heading": "",
+          "description": [
+            "Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your personal information."
+          ],
+          "listItems": []
+        },
+        {
+          "heading": "1. Information We Collect",
+          "description": [
+            "We may collect non-personal data (e.g., IP address) and any information you voluntarily provide (e.g., through forms or emails)."
+          ],
+          "listItems": []
+        },
+        {
+          "heading": "2. Use of Information",
+          "description": [
+            "We use your information to improve the Website and respond to inquiries. We do not sell or share your data."
+          ],
+          "listItems": []
+        },
+        {
+          "heading": "3. Cookies",
+          "description": [
+            "We may use cookies to enhance your experience. You can disable cookies in your browser settings."
+          ],
+          "listItems": []
+        },
+        {
+          "heading": "4. Changes",
+          "description": [
+            "This policy may change, and updates will be posted here."
+          ],
+          "listItems": []
+        }
+      ]
+    },
+    "/terms/index.html": {
+      "title": "Terms and Conditions",
+      "metaDescription": "By using our website you agree to these terms and conditions.",
+      "imageUrl": "/ships_3d.webp",
+      "details": [
+        {
+          "heading": "",
+          "description": [
+            "Welcome to Our Website!",
+            "By downloading, accessing, or using our website, you agree to be bound by these Terms and Conditions. Please read them carefully."
+          ],
+          "listItems": []
+        },
+        {
+          "heading": "1. Content Use",
+          "description": [
+            "All content on this Website, including any downloadable files, is for informational purposes only. We do not guarantee its accuracy or completeness."
+          ],
+          "listItems": []
+        },
+        {
+          "heading": "2. Downloads",
+          "description": [
+            "Files available for download are provided as is and at your own risk. We are not responsible for any issues arising from their use."
+          ],
+          "listItems": []
+        },
+        {
+          "heading": "3. Intellectual Property",
+          "description": [
+            "The content on this Website is owned by us and may not be reproduced without permission."
+          ],
+          "listItems": []
+        },
+        {
+          "heading": "4. Liability",
+          "description": [
+            "We are not liable for any damages resulting from your use of this Website."
+          ],
+          "listItems": []
+        },
+        {
+          "heading": "5. Changes",
+          "description": [
+            "We may update these Terms at any time. Continued use of the Website indicates acceptance of any changes."
+          ],
+          "listItems": []
+        }
+      ]
+    },
+    "/blog/ships-3d-game-not-loading/index.html": {
+    "title": "Ships 3D Game Not Loading? Quick Fixes for Common Problems",
+    "metaDescription": "Is Ships 3D not loading on your browser or phone? Try these simple steps to fix the issue quickly and get back to playing.",
+    "imageUrl": "/assets/images/blog/ships_3d_game_not_loading_quick_fixes_for_common_problems.webp",
+    "content": {
+      "data": [
+        {
+          "heading": "",
+          "description": [
+            "Ships 3D Game Online is a simple naval action game where players must control ships in a 3D world. Players love to play this game because of its cool graphics and smooth gameplay. But sometimes, many new players face freezing, lagging, buffering, and other such issues while playing this game.",
+            "Because of such issues, many players who don’t know about the solution get frustrated. Friendly says there are multiple reasons why such issues happen while playing a game. It is not possible to mention all issues and their solutions in a single article, but we have still mentioned a few common issues and their solutions that players mostly encounter while playing the game. ",
+            "Players who want to know about common issues and their solutions should go through this guide article and share it with their family and friends."
+          ],
+          "listItems": []
+        },
+        {
+          "heading": "Check If Your Internet Connection Is Working",
+          "description": [
+            "Ships 3D Game requires a suitable and high-speed internet connection to play the game without any issues. If you are facing freezing and crashing issues, then check your internet connection and also your mobile data. Turn your router off and on again to get strong Wi-Fi signals. If you are using mobile data, then check for signal."
+          ],
+          "listItems": []
+        },
+        {
+          "heading": "Use the Right Web Browser for the Game",
+          "description": [
+            "Players who are playing browser games frequently may know that all browser apps don’t support all games. So they have to choose the right browser apps like Google Chrome, Microsoft Edge and Fire Fox which provide them smooth gaming experience with advance technologies. Players also have to use up to date browser apps for better gaming experience."
+          ],
+          "listItems": []
+        },
+        {
+          "heading": "Clear the Cache and Cookies in Your Browser",
+          "description": [
+            "Browser app saves data and cookies from websites, users visit daily. These save files will slow download device performance and players will face crashing, freezing, and other such issues while playing online games. To overcome these issues, players have to clear the cache and memory of their device from time to time."
+          ],
+          "listItems": []
+        },
+        {
+          "heading": "Conclusion,",
+          "description": [
+            "Players shouldn’t get frustrated if the Ships 3D online game is not running or freezing. In most such cases problem is very simple, which they can easily solve in a few minutes. We have mentioned the common issues and their solution, which help them to get rid of lagging, buffering, and freezing issues while playing their favorite ship simulator game."
+          ],
+          "listItems": []
+        }
+      ]
+    }
+},
+"/blog/ships-3d-smoothly/index.html": {
+    "title": "Best Browsers To Play Ships 3D Smoothly Without Lag",
+    "metaDescription": "Play Ships 3D without lag using these top browsers that offer smooth performance, fast loading, and stable gameplay across all devices.",
+    "imageUrl": "/assets/images/blog/best_browsers_to_play_ships_3d_smoothly_without_lag.webp",
+    "content": {
+      "data": [
+        {
+          "heading": "",
+          "description": [
+            "Ships 3D Game Online is a simple browser-based combat attack game where players have to take control of ships in 3d Gameplay. As this game is a browser-based online game where real-time game experience matters a lot. So, players have to use high speed and update their browsers to get a smooth gaming experience.",
+            "Many players don’t know about good and up-to-date browsers, due to which they encounter multiple issues while playing online browser games. Like other browser games, players will also encounter issues while playing this game. If they don’t use a working and up-to-date browser app. To help such players, we came back with this guide article, which helps them to know about browser apps and software that provide them with a smooth gaming experience for different devices like desktops, mobile phones, and tablets."
+          ],
+          "listItems": []
+        },
+        {
+          "heading": "Why does the Browser You Use matter while playing Ships 3D Game online?",
+          "description": [
+            "This game is made with the latest web technology, like WebGL and Web Assembly, which allow players to play this game without downloading and installing directly through a web browser.",
+            "As these games run through a browser, every browser is unable to handle such games properly, due to players experiencing various issues like crashing, freezing, lagging, buffering, and many more. So they have to choose the right browser apps to overcome such issues and to play games smoothly."
+          ],
+          "listItems": []
+        },
+        {
+          "heading": "Google Chrome Gives Fast and Steady Performance",
+          "description": [
+            "Google Chrome is one of the most popular web browsers across the world due to its fast performance and support for all web features. Google Chrome uses the advanced V8 engine, which runs all code quickly and provides users with the best performance. Due to its fast V8 engine, it can easily support all browser games without any issues."
+          ],
+          "listItems": []
+        },
+        {
+          "heading": "Microsoft Edge Works Well and Uses Less Power",
+          "description": [
+            "Microsoft Edge uses the latest Chromium engine to run code. It has the same power as Google Chrome. This engine may use few resources due to which makes it best for those who want to use multiple apps at once. Players will also get a smooth gaming experience if they play the Ships 3D game with this browser."
+          ],
+          "listItems": []
+        },
+        {
+          "heading": "Mozilla Firefox Is Great for Privacy and Smooth Play",
+          "description": [
+            "Mozilla Firefox has gained popularity among users due to its privacy and full control over the websites that they use. This browser also supports all types of browser games. This browser does not provide users with a fast gaming experience, but provides them with a safe and secure platform with smooth experience."
+          ],
+          "listItems": []
+        }
+      ]
+    }
+},
+"/blog/ships-3d-game-online-mobile/index.html": {
+    "title": "Ships 3D Game Online: Mobile Vs Desktop Experience Compared",
+    "metaDescription": "Explore the difference between playing Ships 3D Game online on mobile and desktop. Learn which device gives better gameplay, visuals, and controls.",
+    "imageUrl": "/assets/images/blog/ships_3d_game_online_mobile_vs_desktop_experience_compared.webp",
+    "content": {
+      "data": [
+        {
+          "heading": "",
+          "description": [
+            "Ships 3D Game Online is a simple action simulator game where players have control over a warship and start the battle against other players at sea. Players love this game due to its unique gameplay and 3D graphics. Like other browser games, this game is available on multiple gaming devices, desktops, laptops, mobile phones, tablets, etc.",
+            "Due to availability on multiple devices, players have a question in their minds about which device they should choose for a smooth gaming experience. Friendly, every device has its pros and cons, which players should know before choosing it. We have tried to list the pros and cons of every device in this article, so that players can choose the best among the available devices. "
+          ],
+          "listItems": []
+        },
+         {
+          "heading": "Game Controls On Mobile And Desktop",
+          "description": [
+            "One of the most prominent differences between mobile and desktop devices is game control. On desktop, players will get a chance to control the ship through keyboard and mouse. The keyboard helps players move the ship, and the mouse helps players aim and fire. Due to multiple controlling options, desktops provide players with faster and more accurate gameplay to which players prefer over mobile phones. ",
+            "In a mobile device, players have to use the touch button on the screen to move and fire. Professional players can easily manage through touch buttons. But mostly, new players are unable to control the game properly."
+          ],
+          "listItems": []
+        },
+         {
+          "heading": "Graphics Quality And Smooth Performance",
+          "description": [
+            "Due to a bigger screen, desktop devices have more powerful like, HD graphics, rich colors, high frame rate, and many more features, which make everything in the game look smooth and clear.",
+            "However, in most mobile devices, players don't get full HD features, due to which they lack some color and textures. General players enjoy it, but not as much as they can on desktop and other gaming devices. Due to which pro players love to play games on desktop devices."
+          ],
+          "listItems": []
+        },
+         {
+          "heading": "Which One Should You Choose?",
+          "description": [
+            "Players who are looking for a pro gaming experience with strong control, long game sessions with conform, and also look for high graphics and frame rate should choose a desktop device to play the Ships 3D Game Online to get better control and a smooth gaming experience.",
+            "Players who want to play the game casually for enjoyment should choose a mobile device to play this game because they can easily access this game through a mobile device anywhere, at any time. Mobile devices do not provide players with sharp control and high graphics, but it is enough for fun and enjoyment."
+          ],
+          "listItems": []
+        },
+         {
+          "heading": "Conclusion,",
+          "description": [
+            "Every device provides players with special features that help them while playing the Ships 3D Game online. Choosing a device to play depends on how players want to play. Players should try every device and choose the device according to their preference, which helps them choose the best device."
+          ],
+          "listItems": []
+        }
+      ]
+    }
+}
+
+  }
+}

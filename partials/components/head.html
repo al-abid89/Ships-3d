@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+{{#if isMultiLingual}}
+<html lang="{{urlLanguageCode}}"
+      dir="{{currentLanguage.languageDirection}}"
+>
+{{else}}
+<html lang="en"
+      dir="ltr"
+>
+{{/if}}
+<head>
+    <script>
+        if (window.location.hostname.includes("{{cloudflareUrl}}")) {
+            const newUrl =
+                "{{siteUrl}}" + window.location.pathname + window.location.search;
+            window.location.replace(newUrl);
+        }
+    </script>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>{{title}}</title>
+    <meta name="description" content="{{metaDescription}}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="{{title}}"/>
+    <meta property="og:url" content="{{currentUrl}}"/>
+    <meta property="og:site_name" content="{{siteName}}"/>
+    <meta property="og:image" content="{{siteUrl}}{{imageUrl}}"/>
+    <meta property="og:description" content="{{metaDescription}}"/>
+    <meta property="og:locale" content="en_US"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="{{title}}"/>
+    <meta name="twitter:description" content="{{metaDescription}}"/>
+    <meta name="twitter:creator" content="{{siteName}}"/>
+    <meta name="twitter:image" content="{{siteUrl}}{{imageUrl}}"/>
+    <link rel="apple-touch-icon"
+          sizes="57x57"
+          href="{{siteUrl}}/apple-icon-57x57.png"
+    />
+    <link rel="apple-touch-icon"
+          sizes="60x60"
+          href="{{siteUrl}}/apple-icon-60x60.png"
+    />
+    <link rel="apple-touch-icon"
+          sizes="72x72"
+          href="{{siteUrl}}/apple-icon-72x72.png"
+    />
+    <link rel="apple-touch-icon"
+          sizes="76x76"
+          href="{{siteUrl}}/apple-icon-76x76.png"
+    />
+    <link rel="apple-touch-icon"
+          sizes="114x114"
+          href="{{siteUrl}}/apple-icon-114x114.png"
+    />
+    <link rel="apple-touch-icon"
+          sizes="120x120"
+          href="{{siteUrl}}/apple-icon-120x120.png"
+    />
+    <link rel="apple-touch-icon"
+          sizes="144x144"
+          href="{{siteUrl}}/apple-icon-144x144.png"
+    />
+    <link rel="apple-touch-icon"
+          sizes="152x152"
+          href="{{siteUrl}}/apple-icon-152x152.png"
+    />
+    <link rel="apple-touch-icon"
+          sizes="180x180"
+          href="{{siteUrl}}/apple-icon-180x180.png"
+    />
+    <link rel="icon"
+          type="image/png"
+          sizes="192x192"
+          href="{{siteUrl}}/android-icon-192x192.png"
+    />
+    <link rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="{{siteUrl}}/favicon-32x32.png"
+    />
+    <link rel="icon"
+          type="image/png"
+          sizes="96x96"
+          href="{{siteUrl}}/favicon-96x96.png"
+    />
+    <link rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="{{siteUrl}}/favicon-16x16.png"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff"/>
+    <meta name="msapplication-TileImage"
+          content="{{siteUrl}}/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff"/>
+    <link rel="manifest" href="{{siteUrl}}/manifest.json"/>
+    {{#if isMultiLingual}}
+    {{#each languages}}
+    <link rel="alternate"
+          hreflang="{{this.languageCode}}"
+          href="{{../siteUrl}}{{this.languagePath}}{{#isNotDefaultHomeUrl ../commonUrlPath this.languagePath}}{{../commonUrlPath}}{{/isNotDefaultHomeUrl}}"
+    />
+    {{/each}}
+    {{/if}}
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+          media="print"
+          onload="this.media='all'"
+    />
+    <noscript>
+        <link
+                href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+                rel="stylesheet"
+                type="text/css"
+        />
+    </noscript>
+    <link href='{{resolveFromRoot "css/app.css"}}' rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js" defer></script>

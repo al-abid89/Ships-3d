@@ -1,0 +1,70 @@
+<footer class="bg-footer-background text-footer-foreground">
+    <div class="container mx-auto px-4 py-16">
+        <div class="grid grid-cols-1 gap-12">
+            <div class="space-y-4">
+                <div class="flex items-center space-x-3">
+                    <div>
+                        <img src="{{logoIconUrl}}"
+                             alt="{{siteName}}"
+                             class="logo-image"
+                        >
+                    </div>
+                    <strong class="block text-xl font-bold">{{siteName}}</strong>
+                </div>
+                <p class="leading-relaxed">{{abstract}}</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <strong class="block text-xl font-bold mb-6 text-footer-foreground">{{_footerHeadingQL}}</strong>
+                    <ul class="space-y-3">
+                        {{#each footerLinks}}
+                        <li>
+                            <a href="{{this.url}}"
+                               target="{{this.target}}"
+                               class="text-footer-link transition-all hover:text-white duration-300 flex items-center">
+                                {{this.name}}
+                            </a>
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+
+                <div>
+                    <strong class="block text-xl font-bold mb-6 text-footer-foreground">{{_footerHeadingFU}}</strong>
+                    <div class="flex gap-4 flex-wrap">
+                        {{#each socialLinks}}
+                        <a href="{{this.url}}"
+                           target="{{this.target}}"
+                           aria-label="{{this.label}}"
+                           class="p-3 bg-secondary text-secondary-foreground rounded-2xl hover:bg-footer-foreground hover:text-footer-background transition-colors duration-300"
+                        >
+                            {{this.name}}
+                        </a>
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-footer-foreground mt-16 pt-8">
+            <p class="text-footer-foreground text-sm">{{{copyrightText}}}</p>
+        </div>
+    </div>
+</footer>
+<button id="back-to-top"
+        onclick="window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })"
+        title="{{_backToTop}}"
+>
+    <svg xmlns="http://www.w3.org/2000/svg"
+         fill="none"
+         viewBox="0 0 24 24"
+         stroke-width="1.5"
+         stroke="currentColor"
+         class="size-5"
+    >
+        <path stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18"/>
+    </svg>
+</button>

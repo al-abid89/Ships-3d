@@ -1,0 +1,188 @@
+{
+  "en": {
+    "siteName": "Ships 3D Game Online",
+    "logoUrl": "/ships_3d.webp",
+    "logoIconUrl": "/ships_3d_icon.webp",
+    "copyrightYear": "2025",
+    "publishedDate": "2025-05-15T06:53:50Z",
+    "lastModifiedDate": "2025-05-15T06:53:50Z",
+    "websitePublisher": "Suresh",
+    "gamePublisher": "ASDF Games",
+    "abstract": "Now Play Multiplayer Ships 3D Online for Free. Command Your Ship, Fire the Cannons, and Conquer the Seas.",
+    "keywords": "Ships 3D Game Online, play Ships 3D free, Ships 3D unblocked, Ships 3D browser game, Ships 3D desktop version, Ships 3D mobile version, online ship battle game, pirate ship 3D game, free multiplayer ship game, Ships 3D strategy tips, play Ships 3D without lag, Ships 3D loading issues, Ships 3D controls guide, best browser for Ships 3D, Ships 3D online experience",
+    "copyrightText": "Copyright &copy; 2024 - 2025. All rights reserved.",
+    "ratingsCount": "10k \uD83C\uDFAE players",
+    "ratingsCountNumeric": "10000",
+    "ratingValue": "4.7",
+    "_closeMenu": "Close Menu",
+    "_openMenu": "Open Menu",
+    "_rated": "Rated",
+    "_emailKey": "Contact Email:",
+    "_faqsTitle": "Frequently Asked Questions",
+    "_goToHomePage": "Go to Home Page",
+    "_langLabel": "Change Language",
+    "_menuClose": "Close Menu",
+    "_menuOpen": "Open Menu",
+    "_readNow": "Read Now",
+    "_controls": "Controls",
+    "_reload": "Reload Game",
+    "_fullscreen": "View Fullscreen",
+    "_confirmAction": "Confirm Action",
+    "_gameChange": "Are you sure you want to change the game?",
+    "_gameReload": "Are you sure you want to reload the game?",
+    "_confirm": "Confirm",
+    "_cancel": "Cancel",
+    "_mobile": "Mobile",
+    "_desktop": "Desktop",
+    "_footerHeadingQL": "Quick Links",
+    "_footerHeadingFU": "Follow Us",
+    "_backToTop": "Back to Top",
+    "_darkModeLabel": "Dark mode toggle",
+    "_shareLabel": "Share It",
+    "_noPosts": "No blog posts available yet. Check back soon!",
+    "_shareOnLinkedin": "Share on LinkedIn",
+    "_shareOnFacebook": "Share on Facebook",
+    "_shareOnX": "Share on X",
+    "_shareOnWhatsApp": "Share on WhatsApp",
+    "_shareOnTelegram": "Share on Telegram",
+    "_shareOnReddit": "Share on Reddit",
+    "_shareOnPinterest": "Share on Pinterest",
+    "_shareOnTumblr": "Share on Tumblr",
+    "_shareOnEmail": "Share via Email",
+    "_blogPath": "/blog/",
+    "blogPosts": [
+      {
+        "url": "/blog/ships-3d-game-not-loading/",
+        "title": "Ships 3D Game Not Loading? Quick Fixes for Common Problems",
+        "imageUrl": "/assets/images/blog/ships_3d_game_not_loading_quick_fixes_for_common_problems.webp",
+        "metaDescription": "Is Ships 3D not loading on your browser or phone? Try these simple steps to fix the issue quickly and get back to playing."
+      },
+      {
+        "url": "/blog/ships-3d-smoothly/",
+        "title": "Best Browsers To Play Ships 3D Smoothly Without Lag",
+        "imageUrl": "/assets/images/blog/best_browsers_to_play_ships_3d_smoothly_without_lag.webp",
+        "metaDescription": "Play Ships 3D without lag using these top browsers that offer smooth performance, fast loading, and stable gameplay across all devices."
+      },
+      {
+        "url": "/blog/ships-3d-game-online-mobile/",
+        "title": "Ships 3D Game Online: Mobile Vs Desktop Experience Compared",
+        "imageUrl": "/assets/images/blog/ships_3d_game_online_mobile_vs_desktop_experience_compared.webp",
+        "metaDescription": "Explore the difference between playing Ships 3D Game online on mobile and desktop. Learn which device gives better gameplay, visuals, and controls."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is this game free to play?",
+        "answer": "Yes. This is a 100% free game to play."
+      },
+      {
+        "question": "Do I need to download anything here?",
+        "answer": "No. There is no such requirement."
+      },
+      {
+        "question": "Can I play this game with friends?",
+        "answer": "Yes. You can play Ships 3D with friends by giving them the crew code."
+      }
+    ],
+    "gameEmbedUrls": {
+      "default": {
+        "title": "Link 1",
+        "url": "https://yp3d.com/ships3d/"
+      },
+      "alternatives": []
+    },
+    "relatedGames": [],
+    "navigation": [
+      {
+        "title": "Home",
+        "url": "/"
+      },
+      {
+        "title": "Blog",
+        "url": "/blog/"
+      }
+    ],
+    "footerLinks": [
+      {
+        "name": "About Us",
+        "url": "/about/",
+        "target": "_self",
+        "label": "Learn More About Us"
+      },
+      {
+        "name": "Contact Us",
+        "url": "/contact/",
+        "target": "_self",
+        "label": "View Contact Us Page"
+      },
+      {
+        "name": "Privacy Policy",
+        "url": "/privacy-policy/",
+        "target": "_self",
+        "label": "View Privacy Policy Page"
+      },
+      {
+        "name": "Terms & Conditions",
+        "url": "/terms/",
+        "target": "_self",
+        "label": "View Terms and Conditions Page"
+      }
+    ],
+    "socialLinks": [
+      {
+        "name": "Facebook",
+        "url": "#",
+        "target": "_blank",
+        "label": "Join our Facebook community"
+      },
+      {
+        "name": "X",
+        "url": "#",
+        "target": "_blank",
+        "label": "Follow us on X for updates"
+      },
+      {
+        "name": "TikTok",
+        "url": "#",
+        "target": "_blank",
+        "label": "Join TikTok"
+      },
+      {
+        "name": "Youtube",
+        "url": "#",
+        "target": "_blank",
+        "label": "Watch gameplay videos and tutorials"
+      },
+      {
+        "name": "Reddit",
+        "url": "#",
+        "target": "_blank",
+        "label": "Join discussions on Reddit"
+      },
+      {
+        "name": "Instagram",
+        "url": "#",
+        "target": "_blank",
+        "label": "View game screenshots and art"
+      },
+      {
+        "name": "Threads",
+        "url": "#",
+        "target": "_blank",
+        "label": "Join Threads"
+      },
+      {
+        "name": "Tumblr",
+        "url": "#",
+        "target": "_blank",
+        "label": "Join Tumblr"
+      },
+      {
+        "name": "Pinterest",
+        "url": "#",
+        "target": "_blank",
+        "label": "Join Pinterest"
+      }
+    ]
+  }
+}
