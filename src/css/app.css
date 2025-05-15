@@ -96,16 +96,16 @@
 }
 
 :root {
-    --background: #d5e9fc;
-    --foreground: #2e2b45;
+    --background: #cdd2ff;
+    --foreground: #00071f;
 
     --primary: oklch(0.514 0.222 16.935);
     --primary-foreground: #fff;
     --primary-hover: oklch(0.514 0.222 16.935);
 
-    --secondary: oklch(0.892 0.058 10.001);
-    --secondary-foreground: oklch(0.41 0.159 10.272);
-    --secondary-hover: oklch(0.892 0.058 10.001);
+    --secondary: #04185a;
+    --secondary-foreground: #fff;
+    --secondary-hover: #052079;
 
     --text-secondary: #d1d5db;
 
@@ -113,7 +113,7 @@
     --muted-foreground: hsl(245, 58%, 85%);
     --muted-hover: #010c37;
 
-    --card: oklch(0.954 0.038 75.164);
+    --card: #d8f1ff;
     --card-foreground: #2e2b45;
     --card-heading: #2e2b45;
 
