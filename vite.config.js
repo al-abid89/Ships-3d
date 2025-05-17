@@ -24,11 +24,11 @@ import commonContext from "./content/common.json" assert {type: "json"};
 const siteContext = {
     siteUrl:
         process.env.NODE_ENV === "production"
-            ? "#"
+            ? "https://ships3d.net"
             : "http://localhost:5173",
     shareUrl:
         process.env.NODE_ENV === "production"
-            ? "#"
+            ? "https://ships3d.net"
             : "http://localhost:5173",
     cloudflareUrl: ".pages.dev",
     isMultiLingual: false,
